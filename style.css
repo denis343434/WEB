@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0px 0px 0px;
+}
+.button-logo{
+	display: flex;
+	grid-gap: 46px;
+	padding-left: 312px;
+	padding-right: 222px;
+}
+.button-logo button{
+	background: no-repeat;
+	border: 0px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgb(51, 51, 51);
+}
+.fon{
+	background-color: rgb(254, 209, 0);
+}
+body{
+	font-family: "Montserrat";
+}
+header a{
+	color: #000;
+	font-weight: 600;
+	font-size: 24px;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+	color: rgb(51, 51, 51);
+}
+.info-logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	position: relative;
+}
+.fon-abs{
+	position: absolute;
+	top: 180px;
+	right: 201px;
+}
+.text-info-title p{
+	font-weight: 700;
+	font-size: 70px;
+	color: rgb(51, 51, 51);
+	line-height: 60px;
+}
+.text-info-title h1{
+	padding-top: 6px;
+	padding-bottom: 50px;
+	color: rgb(51, 51, 51);
+	font-weight: 600;
+	font-size: 30px;
+}
+.text-info-title button{
+	border: 0px;
+	padding: 20px;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 16px 96px;
+	background-color: rgb(255, 53, 43);
+}
+.info-company-title{
+	padding-top: 67px;
+	display: flex;
+	grid-gap: 40px;
+}
+.calums{
+	display: flex;
+	align-items: center;
+}
+.calums p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 6px;
+}
+.phone-abs{
+	position: absolute;
+	bottom: 50px;
+	background-color: rgba(61, 155, 233, 0.8);
+	background-size: cover;
+	border-radius: 900px;
+	padding: 20px;
+	right: 341px;
+}
+.steps{
+	display: grid;	
+	justify-content: center;	
+}
+.logo-steps{
+	display: grid;	
+	justify-content: center;
+	padding-top: 95px;
+	padding-bottom: 68px;	
+}
+.logo-steps p{
+	font-size: 30px;	
+	font-weight: 600;	
+	color:rgb(51, 51, 51);
+}
+.calums-steps{
+	display: grid;	
+	grid-template-columns: repeat(2,2fr);
+	grid-gap: 50px;	
+	padding-bottom: 45px;	
+}
+.calums{
+	display: flex;	
+	align-items: center;	
+}
+.calums h1{
+	font-weight: 300;	
+	font-size: 50px;
+	padding-right: 42px;
+}
+.calus-right p{
+	font-weight: 500;
+	font-size: 20px;	
+	color: rgb(51, 51, 51);
+}
+.calus-right h2{
+	color: rgb(51, 51, 51);
+	padding-top: 15px;	
+	width: 366px;
+	font-weight: 400;	
+	font-size: 16px;
+}
+.carta-sell{
+	display: grid;
+	justify-content: center;
+	padding-top: 59px;
+	padding-bottom: 64px;
+	text-align: center;
+}
+.calums-carta-title{
+	display: flex;
+	padding-top: 60px;
+	grid-gap: 23px;
+}
+.calums-title{
+	text-align: center;
+	padding: 84px 93px;
+	border: 1px solid rgb(235, 235, 235);
+}
+.calums-title p{
+	color: rgb(51, 51, 51);
+	padding-bottom: 60px;
+	font-weight: 600;
+	font-size: 24px;
+}
+.calums-title h1{
+	padding-bottom: 25px;
+	color: rgb(51, 51, 51);
+	font-weight: 400;
+	font-size: 16px;
+}
+.calums-title h2{
+	padding-top: 45px;
+	padding-bottom: 52px;
+	font-weight: 600;
+	font-size: 30px;
+	color: rgb(51, 51, 51);
+}
+.calums-title button{
+	color: rgb(51, 51, 51);
+	font-weight: 500;
+	font-size: 20px;
+	padding: 13px 77px;
+	background-color: rgb(254, 209, 0);
+	border: 0px;
+}
+.calums-title:hover{
+	border: 1px solid rgb(254, 209, 0);
+	transition: all 400ms;
+}
+.carta-sell-p{
+	padding-bottom: 15px;
+	color: rgb(51, 51, 51);
+	font-weight: 600;
+	font-size: 30px;
+}
+.carta-sell-h1{
+	color: rgb(51, 51, 51);
+	font-weight: 600;
+	font-size: 24px;
+}
+.swiper {
+
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    object-fit: cover;
+}
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.info-slide{
+	display: flex;
+	align-items: center;
+	grid-gap: 50px;
+	justify-content: center;
+}
+.line-info-slide{
+	display: flex;
+	align-items: center;
+	padding-bottom: 28px;
+	grid-gap: 12px;
+}
+.line-info-slide h1{
+	color: rgb(51, 51, 51);
+	font-weight: 400;
+	font-size: 16px;
+}
+.text-info-slide p{
+	font-weight: 600;
+	font-size: 24px;
+	padding-bottom: 37px;
+	color: rgb(51, 51, 51);
+}
+.text-info-slide button{
+	border: 0px;
+	color: rgb(51, 51, 51);
+	font-weight: 500;
+	font-size: 20px;
+	background-color: rgb(254, 209, 0);
+	padding: 12px 77px;
+	margin-top: 10px;
+}
+.slide-car-info{
+	display: grid;
+	justify-content: center;
+}
+.slide-car-info-static{
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+.slide-car-info-static p{
+	color: rgb(51, 51, 51);
+	font-weight: 600;
+	font-size: 24px;
+	padding-bottom: 60px;
+	padding-top: 50px;
+}
+.button-slide-car-info-static{
+	display: flex;
+	grid-gap: 19px;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+.button-slide-car-info-static button{
+	background: no-repeat;
+	border: 1px solid rgb(235, 235, 235);
+	padding: 13px 56px;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(51, 51, 51);
+}
+.button-slide-car-info-static button:hover{
+	border: 1px solid rgb(254, 209, 0);
+	transition: all 500ms;
+}
+.comments{
+	display: grid;
+	justify-content: center;
+	background-color: rgb(254, 209, 0);
+	padding-top: 100px;
+	padding-bottom: 94px;
+}
+.comments-static{
+	text-align: center;
+}
+.comments-static p{
+	font-weight: 600;
+	font-size: 32px;
+	color: rgb(51, 51, 51);
+	padding-bottom: 60px;
+}
+.comments-calums{
+	display: flex;
+	justify-content: center;
+	grid-gap: 20px;
+}
+.comments-carta p{
+	padding-bottom: 10px;
+	color: rgb(51, 51, 51);
+	font-weight: 600;
+	font-size: 24px;
+}
+.data{
+	display: flex;
+	align-items: center;
+	grid-gap: 9px;
+	padding-bottom: 19px;
+}
+.data p{
+	color: rgb(51, 51, 51);
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 0;
+}
+.comments-carta h1{
+	width: 420px;
+	color: rgb(51, 51, 51);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 30px;
+}
+.comments-carta a{
+	color: rgb(51, 51, 51);
+}
+.comments-static button{
+	background: no-repeat;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(51, 51, 51);
+	padding: 13px 64px;
+	border: 1px solid rgb(51, 51, 51);
+	margin-top: 59px;
+}
+.gmail{
+	display: grid;
+	justify-content: center;
+	padding-top: 124px;
+	padding-bottom: 123px;
+}
+.gmail-title p{
+	padding-bottom: 10px;
+	color: rgb(51, 51, 51);
+	font-weight: 600;
+	font-size: 30px;
+}
+.gmail-title h1{
+	padding-bottom: 30px;
+	font-weight: 400;
+	font-size: 16px;
+	color: rgb(51, 51, 51);
+}
+.gmail-input{
+	display: flex;
+	align-items: center;
+	grid-gap: 72px;
+}
+.gmail-button-input{
+	display: flex;
+	align-items: center;
+	padding-top: 12px;
+}
+.gmail-button-input h1{
+	padding-left: 5px;
+	font-weight: 400;
+	font-size: 12px;
+	color: rgb(51, 51, 51);
+}
+.gmail-input input{
+	border: 1px solid rgb(51, 51, 51);
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	padding: 10px;
+	color: rgba(51, 51, 51, 0.7);
+	font-weight: 500;
+	font-size: 20px;
+	padding-left: 0;
+}
+.gmail-button button{
+	border: 0px;
+	padding: 13px 31px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+	background-color: rgb(255, 53, 43);
+}
+.fon1{
+	background-image: url(img/Rectangle21.svg);
+	background-size: cover;
+	padding-left: 449px;
+	padding-top: 162px;
+	padding-bottom: 172px;
+}
+.footer-mep{
+	background-color: #fff;
+	width: 248px;
+	padding: 40px 35px;
+	border-right: 5px;
+}
+.line-footer-mep{
+	display: flex;
+	align-items: center;
+	padding-bottom: 19px;
+}
+.line-footer-mep h1{
+	font-weight: 400;
+	font-size: 16px;
+	color: rgb(51, 51, 51);
+}
+.line-footer-mep a{
+	color: rgb(51, 51, 51);
+}
+.line-footer-mep img{
+	padding-bottom: 0;
+	padding-right: 9px;
+}
+.pb{
+	padding-bottom: 40px;
+}
+.img-footer-mep{
+	text-align: right;
+	padding-top: 40px;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	padding: 101px 0px;
+	background-color: rgb(254, 209, 0);
+	grid-gap: 200px;
+}
+.calums-footer{
+	display: grid;
+}
+.calums-footer a{
+	padding-top: 40px;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+	color: rgb(14, 15, 18);
+}
+.calums-footer button{
+	margin-bottom: 15px;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(14, 15, 18);
+	border: 0px;
+	border: 0px;
+	background: no-repeat;
+	text-align: left;
+}
+.calums-footer-img{
+	display: flex;
+	grid-gap: 20px;
+	padding-bottom: 20px;
+}
+.calums-footer1 a{
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(51, 51, 51);
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+	padding-bottom: 2px;
+}
+.calums-footer2{
+	display: grid;
+	text-align: center;
+}
+.calums-footer2 button{
+	background: no-repeat;
+	border: 1px solid rgb(51, 51, 51);
+	padding: 10px 32px;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(51, 51, 51);
+	height: 44px;
+}
+.calums-footer2 a{
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+	color: rgb(51, 51, 51);
+	font-weight: 500;
+	font-size: 20px;
+	height: 30px;
+	position: relative;
+	top: -50px;
+}
+.menu{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	background-color: #fff;
+	z-index: 4;
+	top: 0px;
+	left: 0;
+}
+.menu-button{
+	display: grid;
+	text-align: center;
+	padding-top: 90px;
+	grid-gap: 50px;
+}
+.menu-button button{
+	background: no-repeat;
+	border: 0px;
+	font-size: 40px;
+}
+.menu-button button:hover{
+	transition: all 500ms;
+}
+.menu-button a{
+	color: #000;
+	text-decoration: none;
+	font-size: 30px;
+}
+.d-n{
+	display: none;
+}
+.active-menu{
+	height: 40px;
+	width: 40px;
+}
+.close-menu{
+	position: absolute;
+	width: 60px;
+	top: 30px;
+	right: 30px;
+	height: 60px;
+}
+.d-n2{
+	display: none;
+}
+#dn{
+	display: none;
+}
+.pas{
+	display: none;
+}
+@media screen and (max-width:1521px){
+	footer{
+		grid-gap: 90px;
+	}
+}
+@media screen and (max-width:1341px){
+	.calums-carta-title{
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+	}
+	.button-logo{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+@media screen and (max-width:1300px){
+	.comments-calums{
+		display: grid;
+		text-align: center;
+		grid-gap: 40px;
+	}
+	.data{
+		padding-left: 130px;
+		padding-top: 10px;
+	}
+} 
+@media screen and (max-width:1200px){
+	.swiper{
+		width: 100%;
+	}
+	footer{
+		display: grid;
+		grid-template-columns: repeat(2,2fr);
+		grid-gap: 20px;
+		padding-left: 190px;
+	}
+	.calums-footer2 , .calums-footer , .calums-footer1{
+		width: 300px;
+	}
+	.gmail-footer{
+		padding-top: 90px;
+	}
+}
+@media screen and (max-width:1000px){
+	.fon1{
+		padding-left: 90px;
+	}
+	.calums-steps{
+		display: grid;
+		grid-template-columns: none;
+	}
+	.button-logo{
+		display: none;
+	}
+	.d-n1{
+		display: none;
+	}
+	header{
+		justify-content: space-between;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.info-slide{
+		display: grid;
+		justify-content: center;
+		text-align: center;
+	}
+	.swiper{
+		height: 700px;
+	}
+	.line-info-slide{
+		text-align: center;
+		display: grid;
+		justify-content: center;
+	}
+	.line-info-slide h2{
+		color: rgb(51, 51, 51);
+		font-weight: 400;
+		font-size: 12px;
+	}
+	.d-n3{
+		display: block;
+	}
+	#dn{
+		display: block;
+	}
+	#d-n{
+		display: none;
+	}
+}
+@media screen and (max-width:920px){
+	.phone-abs , .info-company-title , .fon-abs{
+		display: none;
+	}
+	.info-logo{
+		display: grid;
+		text-align: center;
+	}
+	.pas{
+		display: block;
+		position: relative;
+		top: -40px;
+	}
+	.d-n02{
+		display: none;
+	}
+	.text-info-title h1{
+		padding-bottom: 0;
+	}
+	footer{
+		display: grid;
+		grid-template-columns: repeat(1,4fr);
+		justify-content: center;
+		padding-left: 330px;
+	}
+	.calums-footer{
+		text-align: center;
+	}
+	.calums-footer button{
+		text-align: center;
+	}
+	.calums-footer1{
+		text-align: center;
+	}
+	.calums-footer img , .calums-footer-img{
+		margin-left: 90px;
+	}
+	.calums-carta-title{
+		grid-template-columns: repeat(1,3fr);
+	}
+}
+@media screen and (max-width:878px){
+	.gmail-input{
+		display: grid;
+	}
+}
+@media screen and (max-width:673px){
+	footer{
+		padding-left: 180px;
+	}
+	.swiper {
+		width: 100%;
+	}
+}
+@media screen and (max-width:612px){
+	.button-slide-car-info-static button{
+		padding: 0px;
+		border: 0px;
+	}
+	.button-slide-car-info-static{
+		display: flex;
+		grid-gap: 30px;
+	}
+}
+@media screen and (max-width:544px){
+	footer{
+		padding-left: 130px;
+	}
+}
+@media screen and (max-width:497px){
+	footer{
+		padding-left: 80px;
+	}
+	.info-slide img{
+		width: 400px;
+	}
+}
+@media screen and (max-width:430px){
+	.text-info-title p{
+		font-size: 50px;
+	}
+	.calus-right h2{
+		display: none;
+	}
+	.calums h1{
+		padding-right: 10px;
+	}
+	.calus-right p{
+		font-size: 17px;
+	}
+	footer{
+		padding-left: 70px;
+	}
+	.footer-mep{
+		padding-left: 20px;
+		width: 300px;
+	}
+	.fon1{
+		padding-left: 40px;
+	}
+	.button-slide-car-info-static button:hover {
+		border-bottom: 1px solid rgb(235, 235, 235);
+		border-top: none;
+		border-left: none;
+		border-right: none;
+	}
+	.gmail-button{
+		margin-left: 20px;
+	}
+	.gmail-input{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.gmail-title{
+		display: grid;
+		justify-content: center;
+		text-align: center;
+	}
+}
+@media screen and (max-width:414px){
+	.calums-title{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.comments-carta h1{
+		width: 100%;
+	}
+}
+@media screen and (max-width:390px){
+	footer{
+		padding-left: 40px;
+	}
+	.fon1{
+		padding-left: 15px;
+	}
+}
+@media screen and (max-width:375px){
+	.img-info img{
+		width: 100%;
+	}
+}
+@media screen and (max-width:360px){
+	.info-slide img{
+		width: 350px;
+	}
+	.fon1{
+		padding-left: 2px;
+	}
+}
+@media screen and (max-width:334px){
+	.footer-mep{
+		width: 200px;
+	}
+	.fon1{
+		padding-left: 40px;
+	}
+	.info-slide img{
+		width: 100%;
+	}
+	footer{
+		padding-left: 20px;
+	}
+	.text-info-title p{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width:280px){
+	.img-info img{
+		width: 240px;
+	}
+	.button-slide-car-info-static{
+		grid-gap: 10px;
+	}
+	.fon1{
+		padding-left: 0;
+	}
+	.calums-footer2 button{
+		width: 250px;
+	}
+	.gmail-footer{
+		width: 250px;
+	}
+	.calums-footer2{
+		width: 270px;
+	}
+	.calums-footer{
+		width: 270px;
+	}
+	.gmail-input{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.data{
+		padding-left: 40px;
+	}
+	.text-info-title button{
+		width: 270px;
+	}
+	.slide-car-info-static p{
+		font-size: 15px;
+	}
+	.calums-footer1{
+		width: 270px;
+	}
+	footer{
+		padding-left: 0px;
+	}
+	.calums-footer-button , .gmail-footer{
+		margin-left: 15px;
+	}
+	.fon1{
+		padding-left: 12px;
+	}
+	.text-info-title p{
+		line-height: 30px;
+	}
+}
